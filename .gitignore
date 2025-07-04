@@ -1,0 +1,22 @@
+venv/
+virtual_environment/
+__pycache__/
+# Ignore all .pth files
+*.pth
+
+# But do NOT ignore these two specific model files
+!Task_B/checkpoints/best_model.pth
+!Task_A/1.Efficientnet_cbam/model/best_model.pth
+
+*.pt
+*.onnx
+Task_A/deeplab_yolo_preprocessed/
+Task_A/augmented/
+Task_A/train/
+Task_A/val/
+Task_A/augmented_val/
+Task_A/deeplabyolo_val_preprocessed/
+Task_B/train_yolo_aligned/
+Task_B/val_yolo_aligned/
+Task_B/train/
+Task_B/val/
